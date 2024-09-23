@@ -39,7 +39,7 @@ By default, Ctrl + W will not close the tab.
 This project is completely open source.
 For more information, please refer to the following links:
 
-TODO: https://github.com/kumarstack55/...
+https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w
 
 ## TODO
 
