@@ -14,7 +14,7 @@ the browser tab when trying to erase a word with `C-w`.
 
 Installation can be performed in a variety of ways:
 
-1. Download a zip from `https://...` and unarchive it.
+1. Download a zip from `https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w/archive/refs/heads/main.zip` and unarchive it.
     - Example: Save unarchived files to `$HOME/chrome-extension-toggle-ctrl-w`.
 1. Open `chrome://extensions`.
     1. Enable `Developer mode`, if not already enabled.
