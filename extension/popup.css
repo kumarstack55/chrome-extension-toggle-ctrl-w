@@ -1,0 +1,11 @@
+body {
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+}
