@@ -22,7 +22,7 @@ Installation can be performed in a variety of ways:
         - Example: Select the folder `$HOME/chrome-extension-toggle-ctrl-w/extension`
 1. Open `chrome://extensions/shortcuts`.
     1. Find `ToggleCtrlW - Toggle Switch for Ctrl + W`.
-        1. Find `ToggleCtrlW - Ctrl + W Command`, and then click the pencil icon.
+        1. Find `Ctrl + W Command`, and then click the pencil icon.
             1. Type a shortcut: `Ctrl + W`
 
 TODO: Install from Chrome Web Store

@@ -7,7 +7,7 @@
   "homepage_url": "https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w",
   "permissions": ["storage", "activeTab"],
   "commands": {
-    "command-ctrl-w": { "description": "Ctrl + W" }
+    "command-ctrl-w": { "description": "Ctrl + W Command" }
   },
   "action": {
     "default_popup": "popup.html"
