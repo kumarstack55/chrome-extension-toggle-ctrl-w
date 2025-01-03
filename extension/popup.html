@@ -6,10 +6,22 @@
     <script src="popup.js"></script>
   </head>
   <body>
+    <h1>Toggle Ctrl + W: Settings</h1>
+    <hr>
+    <h2>Config</h2>
     <p>If enabled, tabs can be closed with the shortcut.</p>
     <label for="enabledCheckbox">
-      <input type="checkbox" id="enabledCheckbox"> Enable
+      <input type="checkbox" id="enabledCheckbox"> Enabled
     </label>
+    <p>By enabling it, you can delete the current tab with <code>Ctrl + W</code>.</p>
+    <p>By disabling it, <code>Ctrl + W</code> will do nothing. You can avoid unintentional tab deletion with <code>Ctrl + W</code> when using Web Terminal (e.g. bash).</p>
+    <hr>
+    <h2>Help</h2>
     <p>If you have not already set up shortcuts, please do so at: <code>chrome://extensions/shortcuts</code></p>
+    <p>Recommended settings:</p>
+    <ul>
+      <li>Close a tab (Optional): <code>Alt + Shift + W</code></li>
+      <li>Close a tab if enabled: <code>Ctrl + W</code></li>
+    </ul>
   </body>
 </html>

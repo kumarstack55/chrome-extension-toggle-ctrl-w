@@ -1,0 +1,8 @@
+{
+  "commandCloseTab": {
+    "message": "タブを閉じる"
+  },
+  "commandCloseTabIfEnabled": {
+    "message": "Enabled ならタブを閉じる"
+  }
+}

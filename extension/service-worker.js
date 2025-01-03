@@ -1,7 +1,7 @@
 function closeActiveTab() {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     const activeTab = tabs[0];
-    const activeTabId = activeTab.id
+    const activeTabId = activeTab.id;
     chrome.tabs.remove(activeTabId);
   });
 }
@@ -19,8 +19,17 @@ function closeActiveTabIfEnabled() {
 }
 
 chrome.commands.onCommand.addListener((command) => {
-  console.log(`Command "${command}" triggered`);
-  if (command === 'command-ctrl-w') {
-    closeActiveTabIfEnabled()
+    console.log(`Command "${command}" triggered`);
+    switch (command) {
+      case 'command-close-tab-if-enabled':
+      case 'command-ctrl-w':
+        closeActiveTabIfEnabled();
+        break;
+      case 'command-close-tab':
+        closeActiveTab();
+        break;
+      default:
+        console.log(`Command "${command}" is not supported.`);
+    }
   }
-});
+);

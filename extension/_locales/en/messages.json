@@ -1,0 +1,8 @@
+{
+  "commandCloseTab": {
+    "message": "Close a tab"
+  },
+  "commandCloseTabIfEnabled": {
+    "message": "Close a tab only when enabled"
+  }
+}

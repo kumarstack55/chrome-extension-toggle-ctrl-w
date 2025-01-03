@@ -22,14 +22,14 @@ Installation can be performed in a variety of ways:
         - Example: Select the folder `$HOME/chrome-extension-toggle-ctrl-w/extension`
 1. Open `chrome://extensions/shortcuts`.
     1. Find `ToggleCtrlW - Toggle Switch for Ctrl + W`.
-        1. Find `Ctrl + W Command`, and then click the pencil icon.
+        1. Find `Close a tab only when enabled`, and then click the pencil icon.
             1. Type a shortcut: `Ctrl + W`
 
 TODO: Install from Chrome Web Store
 
 ## Usage
 
-By default, Ctrl + W will not close the tab.
+By default, `Ctrl + W` will not close the tab.
 
 1. Click Toggle switch icon from Extensions.
 1. Enable only if you want to close a tab when you presses `C-w`.
@@ -43,7 +43,6 @@ https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w
 
 ## TODO
 
-- TODO: Disable Ctrl + W for a certain period of time (1 hour).
 - TODO: Notify when Ctrl + W is pressed.
 
 ## License

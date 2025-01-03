@@ -3,11 +3,18 @@
   "name": "ToggleCtrlW - Toggle Switch for Ctrl + W",
   "short_name": "ToggleCtrlW",
   "description": "Toggle Switch for Ctrl + W.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage_url": "https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w",
+  "default_locale": "en",
   "permissions": ["storage", "activeTab"],
   "commands": {
-    "command-ctrl-w": { "description": "Ctrl + W Command" }
+    "command-close-tab-if-enabled": {
+      "description": "__MSG_commandCloseTabIfEnabled__",
+      "suggested_key": { "default": "Ctrl+W", "windows": "Ctrl+W" }
+    },
+    "command-close-tab": {
+      "description": "__MSG_commandCloseTab__"
+    }
   },
   "action": {
     "default_popup": "popup.html"
