@@ -14,18 +14,26 @@ the browser tab when trying to erase a word with `C-w`.
 
 Installation can be performed in a variety of ways:
 
-1. Download a zip from `https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w/archive/refs/heads/main.zip` and unarchive it.
-    - Example: Save unarchived files to `$HOME/chrome-extension-toggle-ctrl-w`.
-1. Open `chrome://extensions`.
-    1. Enable `Developer mode`, if not already enabled.
-    1. Click `Load unpacked`.
-        - Example: Select the folder `$HOME/chrome-extension-toggle-ctrl-w/extension`
-1. Open `chrome://extensions/shortcuts`.
-    1. Find `ToggleCtrlW - Toggle Switch for Ctrl + W`.
-        1. Find `Close a tab only when enabled`, and then click the pencil icon.
-            1. Type a shortcut: `Ctrl + W`
+- Download a zip from `https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w/archive/refs/heads/main.zip` and unarchive it.
+  - Example: Save unarchived files to `$HOME/chrome-extension-toggle-ctrl-w`.
 
-TODO: Install from Chrome Web Store
+- Open `chrome://extensions`.
+  - Enable `Developer mode`, if not already enabled.
+  - Click `Load unpacked`.
+    - Example: Select the folder `$HOME/chrome-extension-toggle-ctrl-w-main/extension`
+
+If loading is successful, the extension will be added to Chrome, and you will see the following icon in the toolbar.
+
+![alt text](images/extensions.png)
+
+- Open `chrome://extensions/shortcuts`.
+  - Find `ToggleCtrlW - Toggle Switch for Ctrl + W`.
+    - Find `Close a tab only when enabled`, and then click the pencil icon.
+      - Type a shortcut: `Ctrl + W`
+
+After setting, it will look like the following.
+
+![alt text](images/shortcuts.png)
 
 ## Usage
 
@@ -44,6 +52,7 @@ https://github.com/kumarstack55/chrome-extension-toggle-ctrl-w
 ## TODO
 
 - TODO: Notify when Ctrl + W is pressed.
+- TODO: Install from Chrome Web Store
 
 ## License
 
